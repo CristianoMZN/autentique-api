@@ -18,7 +18,7 @@ composer require cristianomzn/autentique-v2
 ```
 
 # Compatibility
-- PHP 7.3+
+- PHP 7.4+
 - [Autentique API v2 (graphql)](https://docs.autentique.com.br/api/)
 
 

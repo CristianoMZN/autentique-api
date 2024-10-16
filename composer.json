@@ -2,7 +2,7 @@
     "name": "cristianomzn/autentique-api",
     "type": "library",
     "description": "Api Autentique V2 API ",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "keywords": [
         "api",
         "autentique",
