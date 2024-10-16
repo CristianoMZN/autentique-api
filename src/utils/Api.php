@@ -97,10 +97,20 @@ class Api
                 CURLOPT_CAINFO => __DIR__ . "/../../ssl/ca-bundle.crt",
             ]
         );
+        if(PHP_VERSION_ID >= 80000){
 
-        $response = $this->executeCurl($curl);
+            $response = $this->executeCurl($curl);
 
-        $errorNo = $this->getErrorNo($curl);
+            $errorNo = $this->getErrorNo($curl);
+
+        } else {
+            
+            $response = $this->executeCurlLegacy($curl);
+
+            $errorNo = $this->getErrorNoLegacy($curl);
+
+        }
+        
 
         if ($response == "[]") {
             throw new EmptyAutentiqueResponseException();
@@ -151,7 +161,6 @@ class Api
     {
         return "Content-Type: multipart/form-data";
     }
-
     public function getErrorNo(CurlHandle $curl): int
     {
         return curl_errno(
@@ -159,7 +168,13 @@ class Api
             $curl
         );
     }
-
+    public function getErrorNoLegacy($curl): int
+    {
+        return curl_errno(
+            /** @scrutinizer ignore-type */
+            $curl
+        );
+    }
     public function executeCurl(CurlHandle $curl): string
     {
         return curl_exec(
@@ -167,7 +182,13 @@ class Api
             $curl
         );
     }
-
+    public function executeCurlLegacy($curl): string
+    {
+        return curl_exec(
+            /** @scrutinizer ignore-type */
+            $curl
+        );
+    }
     /**
      * Get the value of url
      * @return string
