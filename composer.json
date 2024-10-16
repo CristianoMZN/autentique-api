@@ -1,7 +1,7 @@
 {
-    "name": "vinicinbgs/autentique-v2",
+    "name": "cristianomzn/autentique-api",
     "type": "library",
-    "description": "Api Autentique V2",
+    "description": "Api Autentique V2 API ",
     "minimum-stability": "dev",
     "keywords": [
         "api",
@@ -15,17 +15,17 @@
         "load": "composer dumpautoload",
         "phpdoc": "php phpDocumentor.phar run -d ./src -t phpdoc --setting=graphs.enabled=true"
     },
-    "homepage": "https://github.com/vinicinbgs/autentique-v2",
+    "homepage": "https://github.com/CristianoMZN/autentique-api",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vinicius Morais Dutra",
-            "email": "dutra_morais@hotmail.com",
+            "name": "Cristiano Mozena",
+            "email": "past.kun@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "ext-curl": "*",
         "ext-json": "*"
     },
@@ -40,7 +40,7 @@
             "tests"
         ],
         "psr-4": {
-            "vinicinbgs\\Autentique\\": "src/"
+            "CristianoMZN\\Autentique\\": "src/"
         }
     }
 }
