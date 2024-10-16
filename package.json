@@ -1,5 +1,5 @@
 {
-  "name": "autentique-v2",
+  "name": "autentique-api",
   "version": "2.0.1",
   "scripts": {
     "prettier": "prettier",
