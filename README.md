@@ -14,7 +14,7 @@
 Install and check documentation at [beadev.net/autentique-v2](https://beadev.net/autentique-v2).
 
 ```bash
-composer require vinicinbgs/autentique-v2
+composer require cristianomzn/autentique-v2
 ```
 
 # Compatibility
