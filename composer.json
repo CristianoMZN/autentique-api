@@ -40,7 +40,7 @@
             "tests"
         ],
         "psr-4": {
-            "CristianoMZN\\Autentique\\": "src/"
+            "cmzn\\Autentique\\": "src/"
         }
     }
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace cmzn\Autentique\tests;
 
 use Exception;
-use vinicinbgs\Autentique\tests\_Base;
+use cmzn\Autentique\tests\_Base;
 
-use vinicinbgs\Autentique\Documents;
-use vinicinbgs\Autentique\Folders;
-use vinicinbgs\Autentique\Utils\Api;
+use cmzn\Autentique\Documents;
+use cmzn\Autentique\Folders;
+use cmzn\Autentique\Utils\Api;
 
 class DocumentsTest extends _Base
 {

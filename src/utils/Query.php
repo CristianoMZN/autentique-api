@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\Utils;
+namespace cmzn\Autentique\Utils;
 
 use Exception;
 

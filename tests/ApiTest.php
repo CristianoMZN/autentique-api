@@ -1,12 +1,12 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace cmzn\Autentique\tests;
 
 use Exception;
-use vinicinbgs\Autentique\tests\_Base;
-use vinicinbgs\Autentique\Utils\Api;
-use vinicinbgs\Autentique\Enums\ErrorMessagesEnum;
-use vinicinbgs\Autentique\exceptions\ContentTypeException;
+use cmzn\Autentique\tests\_Base;
+use cmzn\Autentique\Utils\Api;
+use cmzn\Autentique\Enums\ErrorMessagesEnum;
+use cmzn\Autentique\exceptions\ContentTypeException;
 
 use Mockery;
 

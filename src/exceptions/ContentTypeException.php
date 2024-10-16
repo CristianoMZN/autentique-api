@@ -1,8 +1,8 @@
 <?php
 
-namespace vinicinbgs\Autentique\exceptions;
+namespace cmzn\Autentique\exceptions;
 
-use vinicinbgs\Autentique\Enums\ErrorMessagesEnum;
+use cmzn\Autentique\Enums\ErrorMessagesEnum;
 
 class ContentTypeException extends BaseException
 {

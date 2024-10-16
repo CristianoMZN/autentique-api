@@ -1,17 +1,17 @@
 <?php
 
-namespace vinicinbgs\Autentique\Utils;
+namespace cmzn\Autentique\Utils;
 
 use CURLFile;
 use CurlHandle;
 use Exception;
 
-use vinicinbgs\Autentique\exceptions\EmptyTokenException;
-use vinicinbgs\Autentique\exceptions\EmptyQueryException;
-use vinicinbgs\Autentique\exceptions\ContentTypeException;
-use vinicinbgs\Autentique\exceptions\EmptyAutentiqueResponseException;
-use vinicinbgs\Autentique\exceptions\EmptyAutentiqueUrlException;
-use vinicinbgs\Autentique\exceptions\InvalidAutentiqueUrlException;
+use cmzn\Autentique\exceptions\EmptyTokenException;
+use cmzn\Autentique\exceptions\EmptyQueryException;
+use cmzn\Autentique\exceptions\ContentTypeException;
+use cmzn\Autentique\exceptions\EmptyAutentiqueResponseException;
+use cmzn\Autentique\exceptions\EmptyAutentiqueUrlException;
+use cmzn\Autentique\exceptions\InvalidAutentiqueUrlException;
 
 class Api
 {

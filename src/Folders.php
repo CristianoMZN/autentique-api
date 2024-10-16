@@ -1,8 +1,8 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace cmzn\Autentique;
 
-use vinicinbgs\Autentique\Utils\Query;
+use cmzn\Autentique\Utils\Query;
 
 /**
  * Class Folders

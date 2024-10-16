@@ -1,7 +1,7 @@
 <?php
 
-use vinicinbgs\Autentique\tests\_Base;
-use vinicinbgs\Autentique\Folders;
+use cmzn\Autentique\tests\_Base;
+use cmzn\Autentique\Folders;
 
 class FoldersTest extends _Base
 {

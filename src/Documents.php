@@ -1,9 +1,9 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace cmzn\Autentique;
 
-use vinicinbgs\Autentique\Utils\Query;
-use vinicinbgs\Autentique\BaseResource;
+use cmzn\Autentique\Utils\Query;
+use cmzn\Autentique\BaseResource;
 
 /**
  * Class Documents
